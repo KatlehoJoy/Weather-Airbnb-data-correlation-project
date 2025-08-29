@@ -1,2 +1,4 @@
 # Weather-Airbnb-data-correlation-project
 The case study explores the relationship between Airbnb listings in Cape Town and weather conditions, with a focus on identifying whether there is a correlation between guest ratings and the weather. In addition, the project highlights other insights derived from the data.
+
+I successfully retrieved weather data using the OpenWeatherMap API (free tier), which provides only current and forecast data (up to 5 days). This limitation restricted access to historical data, despite my attempts to explore alternative APIs. To demonstrate the pipeline end-to-end, I generated a proxy Airbnb dataset aligned to the available weather forecast data. This allowed me to illustrate the process of data ingestion via API, transformation using SQL, modelling, and visualization, even with limited data scope.
